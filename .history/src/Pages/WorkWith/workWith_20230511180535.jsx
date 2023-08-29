@@ -1,0 +1,6 @@
+
+function WorkWith() {
+    
+}
+
+export de

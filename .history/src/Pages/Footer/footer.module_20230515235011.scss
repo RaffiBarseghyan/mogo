@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../../Assets/Fonts/montserrat/Montserrat-Light.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat_mid;
+  src: url("../../Assets/Fonts/montserrat/Montserrat-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat_bold;
+  src: url("../../Assets/Fonts/montserrat/Montserrat-ExtraBold.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: kaushan;
+  src: url("../../Assets/Fonts/kaushan-script/kaushan-script.kaushanscript-regular.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../../Assets/Fonts/robotofont/Roboto-Light.ttf") format("truetype");
+}
+
+.footer {
+  min-height: 560px;
+  background-color: #f8f8f8;
+}
+.logo {
+  font-size: 46px;
+  color: #cccccc;
+  font-weight: 700;
+  font-family: "Montserrat_bold";
+}
+
+.footer1box {
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  h2 {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+  }
+}

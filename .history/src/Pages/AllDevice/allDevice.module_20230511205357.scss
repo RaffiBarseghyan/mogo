@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../../Assets/Fonts/montserrat/Montserrat-Light.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat_mid;
+  src: url("../../Assets/Fonts/montserrat/Montserrat-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat_bold;
+  src: url("../../Assets/Fonts/montserrat/Montserrat-ExtraBold.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: kaushan;
+  src: url("../../Assets/Fonts/kaushan-script/kaushan-script.kaushanscript-regular.otf")
+    format("truetype");
+}
+
+.allDevice {
+  min-height: 900px;
+
+  h3 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "kaushan";
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat_mid";
+    text-align: center;
+  }
+  .line {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px;
+  }
+  .allDeviceBg {
+    width: 100%;
+    min-height: 850px;
+    background-image: url("../../Assets/Images/allDeviceBg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.ipad {
+  position: absolute;
+  margin-top: 268px;
+}
+
+.iphone {
+  position: relative;
+  top: 194px;
+  left: 257px;
+}
+
+@media only screen and (max-width: 992.2px) {
+  .ipad {
+    width: 378px;
+    height: 480px;
+    margin-top: 370px;
+
+  }
+  .iphone {
+    width: 200px;
+    height: 360px;
+    top: 225px;
+    left: 217px;
+  }
+}
+
+@media only screen and (max-width: 650.2px) {
+    .ipad {
+      width: 300px;
+      height: 400px;
+      margin-top: 450px;
+  
+    }
+    .iphone {
+      width: 180px;
+      height: 360px;
+      top: 225px;
+      left: 170px;
+    }
+  }
+  
